@@ -1,0 +1,14 @@
+com/morteza/chatapp/MainApplication.java
+ com.morteza.chatapp.MainApplication
+ com.morteza.chatapp.MainApplication$1
+com/morteza/chatapp/MainActivity.java
+ com.morteza.chatapp.MainActivity
+com/morteza/chatapp/BuildConfig.java
+ com.morteza.chatapp.BuildConfig
+com/morteza/chatapp/ReactNativeFlipper.java
+ com.morteza.chatapp.ReactNativeFlipper
+ com.morteza.chatapp.ReactNativeFlipper$1
+ com.morteza.chatapp.ReactNativeFlipper$2
+ com.morteza.chatapp.ReactNativeFlipper$2$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

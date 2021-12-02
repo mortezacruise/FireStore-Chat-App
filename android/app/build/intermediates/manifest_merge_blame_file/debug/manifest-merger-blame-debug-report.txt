@@ -1,0 +1,166 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.morteza.chatapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/apple/Documents/PROJECTS/MyApp/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/apple/Documents/PROJECTS/MyApp/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/apple/Documents/PROJECTS/MyApp/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/apple/Documents/PROJECTS/MyApp/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+13-->[com.facebook.flipper:flipper:0.93.0] /Users/apple/.gradle/caches/transforms-3/4e00d0c62026208410ba30c24b85472b/transformed/jetified-flipper-0.93.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.93.0] /Users/apple/.gradle/caches/transforms-3/4e00d0c62026208410ba30c24b85472b/transformed/jetified-flipper-0.93.0/AndroidManifest.xml:16:22-73
+14    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-firestore:23.0.4] /Users/apple/.gradle/caches/transforms-3/782daad2dd31f9cc69440656be0f9879/transformed/jetified-firebase-firestore-23.0.4/AndroidManifest.xml:13:5-79
+15-->[com.google.firebase:firebase-firestore:23.0.4] /Users/apple/.gradle/caches/transforms-3/782daad2dd31f9cc69440656be0f9879/transformed/jetified-firebase-firestore-23.0.4/AndroidManifest.xml:13:22-76
+16
+17    <application
+17-->/Users/apple/Documents/PROJECTS/MyApp/android/app/src/main/AndroidManifest.xml:6:5-24:19
+18        android:name="com.morteza.chatapp.MainApplication"
+18-->/Users/apple/Documents/PROJECTS/MyApp/android/app/src/main/AndroidManifest.xml:7:7-38
+19        android:allowBackup="false"
+19-->/Users/apple/Documents/PROJECTS/MyApp/android/app/src/main/AndroidManifest.xml:11:7-34
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.2.0] /Users/apple/.gradle/caches/transforms-3/b59278b5dcb32fcbb6b53a24ae2b13fa/transformed/core-1.2.0/AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->/Users/apple/Documents/PROJECTS/MyApp/android/app/src/main/AndroidManifest.xml:9:7-41
+23        android:label="@string/app_name"
+23-->/Users/apple/Documents/PROJECTS/MyApp/android/app/src/main/AndroidManifest.xml:8:7-39
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->/Users/apple/Documents/PROJECTS/MyApp/android/app/src/main/AndroidManifest.xml:10:7-52
+25        android:theme="@style/AppTheme"
+25-->/Users/apple/Documents/PROJECTS/MyApp/android/app/src/main/AndroidManifest.xml:12:7-38
+26        android:usesCleartextTraffic="true" >
+26-->/Users/apple/Documents/PROJECTS/MyApp/android/app/src/debug/AndroidManifest.xml:8:9-44
+27        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+27-->/Users/apple/Documents/PROJECTS/MyApp/android/app/src/debug/AndroidManifest.xml:11:9-86
+27-->/Users/apple/Documents/PROJECTS/MyApp/android/app/src/debug/AndroidManifest.xml:11:19-83
+28        <activity
+28-->/Users/apple/Documents/PROJECTS/MyApp/android/app/src/main/AndroidManifest.xml:13:7-23:18
+29            android:name="com.morteza.chatapp.MainActivity"
+29-->/Users/apple/Documents/PROJECTS/MyApp/android/app/src/main/AndroidManifest.xml:14:9-37
+30            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+30-->/Users/apple/Documents/PROJECTS/MyApp/android/app/src/main/AndroidManifest.xml:16:9-86
+31            android:label="@string/app_name"
+31-->/Users/apple/Documents/PROJECTS/MyApp/android/app/src/main/AndroidManifest.xml:15:9-41
+32            android:launchMode="singleTask"
+32-->/Users/apple/Documents/PROJECTS/MyApp/android/app/src/main/AndroidManifest.xml:17:9-40
+33            android:windowSoftInputMode="adjustResize" >
+33-->/Users/apple/Documents/PROJECTS/MyApp/android/app/src/main/AndroidManifest.xml:18:9-51
+34            <intent-filter>
+34-->/Users/apple/Documents/PROJECTS/MyApp/android/app/src/main/AndroidManifest.xml:19:9-22:25
+35                <action android:name="android.intent.action.MAIN" />
+35-->/Users/apple/Documents/PROJECTS/MyApp/android/app/src/main/AndroidManifest.xml:20:13-65
+35-->/Users/apple/Documents/PROJECTS/MyApp/android/app/src/main/AndroidManifest.xml:20:21-62
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/Users/apple/Documents/PROJECTS/MyApp/android/app/src/main/AndroidManifest.xml:21:13-73
+37-->/Users/apple/Documents/PROJECTS/MyApp/android/app/src/main/AndroidManifest.xml:21:23-70
+38            </intent-filter>
+39        </activity>
+40
+41        <meta-data
+41-->[:react-native-firebase_app] /Users/apple/Documents/PROJECTS/MyApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:36
+42            android:name="app_data_collection_default_enabled"
+42-->[:react-native-firebase_app] /Users/apple/Documents/PROJECTS/MyApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-63
+43            android:value="true" />
+43-->[:react-native-firebase_app] /Users/apple/Documents/PROJECTS/MyApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-33
+44
+45        <service
+45-->[:react-native-firebase_app] /Users/apple/Documents/PROJECTS/MyApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-18:19
+46            android:name="com.google.firebase.components.ComponentDiscoveryService"
+46-->[:react-native-firebase_app] /Users/apple/Documents/PROJECTS/MyApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:18-89
+47            android:directBootAware="true"
+47-->[com.google.firebase:firebase-common:20.0.0] /Users/apple/.gradle/caches/transforms-3/dfc172e13ac61f3210434dcbcf410699/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+48            android:exported="false" >
+48-->[com.google.firebase:firebase-firestore:23.0.4] /Users/apple/.gradle/caches/transforms-3/782daad2dd31f9cc69440656be0f9879/transformed/jetified-firebase-firestore-23.0.4/AndroidManifest.xml:19:13-37
+49            <meta-data
+49-->[:react-native-firebase_app] /Users/apple/Documents/PROJECTS/MyApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:85
+50                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+50-->[:react-native-firebase_app] /Users/apple/Documents/PROJECTS/MyApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-120
+51                android:value="com.google.firebase.components.ComponentRegistrar" />
+51-->[:react-native-firebase_app] /Users/apple/Documents/PROJECTS/MyApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-82
+52            <meta-data
+52-->[com.google.firebase:firebase-firestore:23.0.4] /Users/apple/.gradle/caches/transforms-3/782daad2dd31f9cc69440656be0f9879/transformed/jetified-firebase-firestore-23.0.4/AndroidManifest.xml:20:13-22:85
+53                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+53-->[com.google.firebase:firebase-firestore:23.0.4] /Users/apple/.gradle/caches/transforms-3/782daad2dd31f9cc69440656be0f9879/transformed/jetified-firebase-firestore-23.0.4/AndroidManifest.xml:21:17-111
+54                android:value="com.google.firebase.components.ComponentRegistrar" />
+54-->[com.google.firebase:firebase-firestore:23.0.4] /Users/apple/.gradle/caches/transforms-3/782daad2dd31f9cc69440656be0f9879/transformed/jetified-firebase-firestore-23.0.4/AndroidManifest.xml:22:17-82
+55        </service>
+56
+57        <provider
+57-->[:react-native-firebase_app] /Users/apple/Documents/PROJECTS/MyApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-24:38
+58            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+58-->[:react-native-firebase_app] /Users/apple/Documents/PROJECTS/MyApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-88
+59            android:authorities="com.morteza.chatapp.reactnativefirebaseappinitprovider"
+59-->[:react-native-firebase_app] /Users/apple/Documents/PROJECTS/MyApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-86
+60            android:exported="false"
+60-->[:react-native-firebase_app] /Users/apple/Documents/PROJECTS/MyApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-37
+61            android:initOrder="99" />
+61-->[:react-native-firebase_app] /Users/apple/Documents/PROJECTS/MyApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-35
+62
+63        <activity
+63-->[com.google.android.gms:play-services-auth:19.2.0] /Users/apple/.gradle/caches/transforms-3/4d0675d71e8583fea6be727fb4850676/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:23:9-27:75
+64            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+64-->[com.google.android.gms:play-services-auth:19.2.0] /Users/apple/.gradle/caches/transforms-3/4d0675d71e8583fea6be727fb4850676/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:24:13-93
+65            android:excludeFromRecents="true"
+65-->[com.google.android.gms:play-services-auth:19.2.0] /Users/apple/.gradle/caches/transforms-3/4d0675d71e8583fea6be727fb4850676/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:25:13-46
+66            android:exported="false"
+66-->[com.google.android.gms:play-services-auth:19.2.0] /Users/apple/.gradle/caches/transforms-3/4d0675d71e8583fea6be727fb4850676/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:26:13-37
+67            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+67-->[com.google.android.gms:play-services-auth:19.2.0] /Users/apple/.gradle/caches/transforms-3/4d0675d71e8583fea6be727fb4850676/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:27:13-72
+68        <!--
+69            Service handling Google Sign-In user revocation. For apps that do not integrate with
+70            Google Sign-In, this service will never be started.
+71        -->
+72        <service
+72-->[com.google.android.gms:play-services-auth:19.2.0] /Users/apple/.gradle/caches/transforms-3/4d0675d71e8583fea6be727fb4850676/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:33:9-37:51
+73            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+73-->[com.google.android.gms:play-services-auth:19.2.0] /Users/apple/.gradle/caches/transforms-3/4d0675d71e8583fea6be727fb4850676/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:34:13-89
+74            android:exported="true"
+74-->[com.google.android.gms:play-services-auth:19.2.0] /Users/apple/.gradle/caches/transforms-3/4d0675d71e8583fea6be727fb4850676/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:35:13-36
+75            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+75-->[com.google.android.gms:play-services-auth:19.2.0] /Users/apple/.gradle/caches/transforms-3/4d0675d71e8583fea6be727fb4850676/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:36:13-107
+76            android:visibleToInstantApps="true" />
+76-->[com.google.android.gms:play-services-auth:19.2.0] /Users/apple/.gradle/caches/transforms-3/4d0675d71e8583fea6be727fb4850676/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:37:13-48
+77
+78        <activity
+78-->[com.google.android.gms:play-services-base:17.5.0] /Users/apple/.gradle/caches/transforms-3/aa5a54800d22cdd63bcce0bb1096c169/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+79            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+79-->[com.google.android.gms:play-services-base:17.5.0] /Users/apple/.gradle/caches/transforms-3/aa5a54800d22cdd63bcce0bb1096c169/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+80            android:exported="false"
+80-->[com.google.android.gms:play-services-base:17.5.0] /Users/apple/.gradle/caches/transforms-3/aa5a54800d22cdd63bcce0bb1096c169/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+81            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+81-->[com.google.android.gms:play-services-base:17.5.0] /Users/apple/.gradle/caches/transforms-3/aa5a54800d22cdd63bcce0bb1096c169/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+82
+83        <provider
+83-->[com.google.firebase:firebase-common:20.0.0] /Users/apple/.gradle/caches/transforms-3/dfc172e13ac61f3210434dcbcf410699/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+84            android:name="com.google.firebase.provider.FirebaseInitProvider"
+84-->[com.google.firebase:firebase-common:20.0.0] /Users/apple/.gradle/caches/transforms-3/dfc172e13ac61f3210434dcbcf410699/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+85            android:authorities="com.morteza.chatapp.firebaseinitprovider"
+85-->[com.google.firebase:firebase-common:20.0.0] /Users/apple/.gradle/caches/transforms-3/dfc172e13ac61f3210434dcbcf410699/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+86            android:directBootAware="true"
+86-->[com.google.firebase:firebase-common:20.0.0] /Users/apple/.gradle/caches/transforms-3/dfc172e13ac61f3210434dcbcf410699/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+87            android:exported="false"
+87-->[com.google.firebase:firebase-common:20.0.0] /Users/apple/.gradle/caches/transforms-3/dfc172e13ac61f3210434dcbcf410699/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+88            android:initOrder="100" />
+88-->[com.google.firebase:firebase-common:20.0.0] /Users/apple/.gradle/caches/transforms-3/dfc172e13ac61f3210434dcbcf410699/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+89
+90        <meta-data
+90-->[com.google.android.gms:play-services-basement:17.5.0] /Users/apple/.gradle/caches/transforms-3/1aa15065bc7638c8fd6236fcaaf00edc/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+91            android:name="com.google.android.gms.version"
+91-->[com.google.android.gms:play-services-basement:17.5.0] /Users/apple/.gradle/caches/transforms-3/1aa15065bc7638c8fd6236fcaaf00edc/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+92            android:value="@integer/google_play_services_version" />
+92-->[com.google.android.gms:play-services-basement:17.5.0] /Users/apple/.gradle/caches/transforms-3/1aa15065bc7638c8fd6236fcaaf00edc/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+93    </application>
+94
+95</manifest>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "502894954661",
+    "firebase_url": "https://my-project-costumer.firebaseio.com",
+    "project_id": "my-project-costumer",
+    "storage_bucket": "my-project-costumer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:502894954661:android:9cb5c398e00e9047b3e54c",
+        "android_client_info": {
+          "package_name": "com.morteza.chatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeaR48N7QEdPODeDBz56ofMDtT_rqKNXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
